@@ -22,7 +22,7 @@ schedule:
   - name: Monday
   - name: Tuesday
       events:
-      - name: Class
+      - name: Lecture
         start: 3:30 PM
         end: 4:45 PM
         location: JSB 243
@@ -34,7 +34,7 @@ schedule:
         location: Biology Learning Center. JSB
   - name: Thursday
         events:
-      - name: Class
+      - name: Lecture
         start: 3:30 PM
         end: 4:45 PM
         location: JSB 243
