@@ -13,7 +13,7 @@ timeline:
 schedule:
   - name: Monday
   - name: Tuesday
-      events:
+    events:
       - name: Lecture
         start: 3:30 PM
         end: 4:45 PM
@@ -25,7 +25,7 @@ schedule:
         end: 3:30 PM
         location: Biology Learning Center. JSB
   - name: Thursday
-        events:
+    events:
       - name: Lecture
         start: 3:30 PM
         end: 4:45 PM
