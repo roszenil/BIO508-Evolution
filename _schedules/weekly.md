@@ -8,7 +8,7 @@ timeline:
   - '3:30 PM'
   - '4:45 PM'
   - '4:00 PM'
-  - '6:15 PM'
+  - '5:15 PM'
 
 schedule:
   - name: Monday
