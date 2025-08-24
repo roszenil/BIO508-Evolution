@@ -51,8 +51,10 @@ defaults:
       path: ''
       type: modules
     values:
-      layout: module
+      layout: staffer
+      height: 300
       subpath: '/assets/docs/'
+      width: 300
   - scope:
       path: ''
       type: schedules
