@@ -1,5 +1,6 @@
 ---
 title: Installation Software
+nav_exclude: true
 math: katex
 ---
 
