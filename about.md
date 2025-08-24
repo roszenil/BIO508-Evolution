@@ -20,7 +20,7 @@ description: >-
 
 This is an undergraduate and graduate course at the University of Kentucky. The goal of this course is to introduce students to the field of phylogenetic comparative methods and develop basic skills 
 
-By the end of the semester, the graduate students will be able to:
+By the end of the semester, students will be able to:
 
 1. Understand how phylogenetic trees are built.
 2. Infer correlations between traits using a phylogenetic tree as part of the modeling approach.
@@ -32,6 +32,7 @@ By the end of the semester, the graduate students will be able to:
 ## Assignments
 
 ### Participation and Reading Quiz
+
 There are many readings in this course. I will quiz you on concepts and ideas from the articles after I have introduced the basics during the lecture. Some of the readings are challenging, but they won’t be long. Make sure you are taking your time to understand them. I am happy to discuss any of these readings one-on-one. Another way to compensate for missing points in the reading quizzes is by participating and asking questions during the class. Participation is optional, but highly encouraged.
 
 

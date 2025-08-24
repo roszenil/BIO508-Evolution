@@ -1,5 +1,5 @@
 ---
-title: Introduction
+title: Introduction and Tree-thinking
 ---
 
 Aug 26
@@ -7,9 +7,10 @@ Aug 26
   : [Syllabus](#)
 
 Aug 28
-: **Lecture**{: .label .label-purple }Tree thinking
+: **Lecture**{: .label .label-purple }Tree-thinking
   : [Slides](#)
-: **Reading**{: .label .label-purple }[Tree thinking](#)
+: **Reading**{: .label .label-purple }Tree-thinking
+  : [Omland](/reads/Omland_2017_InterpretationPhylo.pdf)
 
 Sep 30
 : [Variables & Objects](#)
