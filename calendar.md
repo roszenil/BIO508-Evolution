@@ -4,7 +4,7 @@ title: Weekly work
 description: Listing of weekly readings, lectures, and practicals
 ---
 
-# Calendar
+# What are we doing each week?
 
 {% for module in site.modules %}
 {{ module }}
