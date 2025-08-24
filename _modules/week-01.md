@@ -3,8 +3,9 @@ title: Introduction and Tree-thinking
 ---
 
 Aug 26
-: [Introduction](#)
+: **Lecture**{: .label .label-purple }Introduction
   : [Syllabus](#)
+: [Software instalation](#)
 
 Aug 28
 : **Lecture**{: .label .label-purple }Tree-thinking
@@ -12,14 +13,3 @@ Aug 28
 : **Reading**{: .label .label-blue }Tree-thinking
     : [Omland](https://roszenil.github.io/BIO508-Evolution/reads/Omland_2017_InterpretationPhylo.pdf)
 
-Sep 30
-: [Variables & Objects](#)
-  : [1.2](#), [2.1](#)
-
-Oct 1
-: **Lab**{: .label .label-purple } [Intro to Java](#)
-
-Oct 2
-: [Tracing, IntLists, & Recursion](#)
-  : [2.1](#)
-: **HW 1 due**{: .label .label-red }
