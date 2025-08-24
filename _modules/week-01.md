@@ -5,9 +5,9 @@ title: Introduction and Tree-thinking
 Aug 26
 : **Lecture**{: .label .label-purple }Introduction
   : [Slides](#)
-:
-  : [Syllabus](#)
-:**Practical**{: .label .label-orange }Tree-thinking
+: **Syllabus**{: .label .label-red }Introduction
+  : [pdf](#)
+: **Practical**{: .label .label-orange }
   : [Software instalation](../practicals/software)
 
 Aug 28
