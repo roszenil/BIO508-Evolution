@@ -21,12 +21,13 @@ description: >-
 This is an undergraduate and graduate course at the University of Kentucky. The goal of this course is to introduce students to the field of phylogenetic comparative methods and develop basic skills 
 
 By the end of the semester, the graduate students will be able to:
-    1. Understand how phylogenetic trees are built.
-    2. Infer correlations between traits using a phylogenetic tree as part of the modeling approach.
-    3. Model discrete traits, and ancestral reconstruction on a phylogenetic tree.
-    4. Become familiar with the primary literature of comparative methods.
-    5. Develop basic computer skills to manipulate phylogenetic trees and traits.
-    6. Develop quantitative reasoning to follow methods in results of scientific articles.
+
+1. Understand how phylogenetic trees are built.
+2. Infer correlations between traits using a phylogenetic tree as part of the modeling approach.
+3. Model discrete traits, and ancestral reconstruction on a phylogenetic tree.
+4. Become familiar with the primary literature of comparative methods.
+5. Develop basic computer skills to manipulate phylogenetic trees and traits.
+6. Develop quantitative reasoning to follow methods in results of scientific articles.
 
 ## Assignments
 

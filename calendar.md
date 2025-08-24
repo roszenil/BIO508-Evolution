@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Calendar
-description: Listing of course modules and topics.
+title: Weekly work
+description: Listing of weekly readings, lectures, and practicals
 ---
 
 # Calendar

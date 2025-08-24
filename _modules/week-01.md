@@ -2,13 +2,14 @@
 title: Introduction to Java
 ---
 
-Sep 28
-: [Java & Git](#)
+Aug 26
+: [Syllabus and Introduction](#)
   : [1.1](#)
 
-Sep 29
-: **Section**{: .label .label-purple }[Intro to Java](#)
-  : [Solution](#)
+Aug 28
+: **Lecture**{: .label .label-purple }[Tree thinking](#)
+  : [Slides](#)
+: **Reading**{: .label .label-purple }[Tree thinking](#)
 
 Sep 30
 : [Variables & Objects](#)
