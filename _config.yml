@@ -52,7 +52,7 @@ defaults:
       type: modules
     values:
       layout: module
-      subpath: '/assets/docs/
+      subpath: '/assets/docs/'
   - scope:
       path: ''
       type: schedules
