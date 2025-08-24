@@ -30,6 +30,8 @@ By the end of the semester, students will be able to:
 5. Infer correlations between traits using a phylogenetic tree as part of the modeling approach.
 6. Model traits on a phylogeny and perform ancestral state estimation.
 
+## Syllabus
+The full syllabus is[here](https://roszenil.github.io/BIO508-Evolution/reads/BIO508_Syllabus_Fall2025.pdf)
 
 ## Assignments
 
