@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Weekly work
+nav_order: 3
 description: Listing of weekly readings, lectures, and practicals
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Instructor
+nav_order: 4
 description: A listing of all instructors
 ---
 
