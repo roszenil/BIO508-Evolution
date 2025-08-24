@@ -8,7 +8,7 @@ Aug 26
 : **Syllabus**{: .label .label-red }
   : [pdf](https://roszenil.github.io/BIO508-Evolution/reads/BIO508_Syllabus_Fall2025.pdf)
 : **Practical**{: .label .label-orange }
-  : [Software instalation](../practicals/software)
+  : [Software installation](../practicals/software)
 
 Aug 28
 : **Lecture**{: .label .label-purple }Tree-thinking
