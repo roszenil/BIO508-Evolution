@@ -9,8 +9,8 @@ Aug 26
 Aug 28
 : **Lecture**{: .label .label-purple }Tree-thinking
   : [Slides](#)
-: **Reading**{: .label .label-purple }Tree-thinking
-  :[Omland](/assets/docs/Omland_2017_InterpretationPhylo.pdf)
+: **Reading**{: .label .label-blue }Tree-thinking
+    : [Omland](./assets/docs/Omland_2017_InterpretationPhylo.pdf)
 
 Sep 30
 : [Variables & Objects](#)
