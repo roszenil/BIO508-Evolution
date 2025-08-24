@@ -1,13 +1,13 @@
 ---
-title: Introduction to Java
+title: Introduction
 ---
 
 Aug 26
-: [Syllabus and Introduction](#)
-  : [1.1](#)
+: [Introduction](#)
+  : [Syllabus](#)
 
 Aug 28
-: **Lecture**{: .label .label-purple }[Tree thinking](#)
+: **Lecture**{: .label .label-purple }Tree thinking
   : [Slides](#)
 : **Reading**{: .label .label-purple }[Tree thinking](#)
 
