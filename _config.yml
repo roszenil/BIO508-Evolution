@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: BIO 508 - Evolution and Biodiversity
+title: BIO 508
 tagline: University of Kentucky Course.
 description: A modern, highly customizable, responsive Jekyll template for course websites
 author: Rosana Zenil-Ferguson
@@ -52,6 +52,7 @@ defaults:
       type: modules
     values:
       layout: module
+      subpath: '/assets/docs/
   - scope:
       path: ''
       type: schedules
