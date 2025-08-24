@@ -5,7 +5,7 @@ title: Introduction and Tree-thinking
 Aug 26
 : **Lecture**{: .label .label-purple }Introduction
   : [Syllabus](#)
-: [Software instalation](practicals/software.md)
+: [Software instalation](./practicals/software.md)
 
 Aug 28
 : **Lecture**{: .label .label-purple }Tree-thinking
