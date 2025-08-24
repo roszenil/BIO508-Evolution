@@ -16,18 +16,30 @@ description: >-
 
 ---
 
-## About
+## BIO 508 - Evolution and Biodiversity
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam ut porttitor leo a diam. Erat nam at lectus urna duis convallis convallis tellus id. Pellentesque elit eget gravida cum sociis natoque penatibus et magnis. Ultrices vitae auctor eu augue ut lectus arcu. Morbi tristique senectus et netus et malesuada. Turpis tincidunt id aliquet risus feugiat in ante. Consequat interdum varius sit amet mattis vulputate enim nulla. Felis eget nunc lobortis mattis aliquam. Eu non diam phasellus vestibulum lorem sed risus. A condimentum vitae sapien pellentesque habitant morbi tristique. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Proin sagittis nisl rhoncus mattis rhoncus urna neque. Dictum varius duis at consectetur lorem donec massa sapien. Blandit cursus risus at ultrices mi tempus imperdiet. Laoreet sit amet cursus sit amet dictum sit amet justo. Felis eget nunc lobortis mattis aliquam faucibus. Nam aliquam sem et tortor consequat.
+This is an undergraduate and graduate course at the University of Kentucky. The goal of this course is to introduce students to the field of phylogenetic comparative methods and develop basic skills 
 
-## Lecture
-
-Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Vulputate dignissim suspendisse in est ante in. Massa vitae tortor condimentum lacinia quis vel. Gravida neque convallis a cras semper auctor. Pellentesque eu tincidunt tortor aliquam nulla. Quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna. Sit amet purus gravida quis blandit turpis cursus in. Porttitor leo a diam sollicitudin tempor. Vel facilisis volutpat est velit egestas dui id ornare. Cum sociis natoque penatibus et magnis. Tristique magna sit amet purus gravida. Nibh sit amet commodo nulla facilisi nullam vehicula. Aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque. Id semper risus in hendrerit gravida. Sit amet justo donec enim diam vulputate ut pharetra sit. Vitae justo eget magna fermentum. Tellus in metus vulputate eu. Pellentesque id nibh tortor id aliquet lectus proin nibh nisl. Etiam erat velit scelerisque in dictum non consectetur a erat. Pellentesque eu tincidunt tortor aliquam nulla.
-
-## Resources
-
-Lacus viverra vitae congue eu. Suspendisse in est ante in nibh mauris cursus mattis. Nisl vel pretium lectus quam id leo in. Euismod lacinia at quis risus sed vulputate odio. Non enim praesent elementum facilisis. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum integer. Id interdum velit laoreet id donec ultrices tincidunt arcu. Urna molestie at elementum eu facilisis sed odio. Auctor urna nunc id cursus metus aliquam eleifend. Volutpat commodo sed egestas egestas fringilla phasellus. Libero nunc consequat interdum varius sit amet mattis. Imperdiet nulla malesuada pellentesque elit eget gravida cum sociis natoque. Tortor vitae purus faucibus ornare suspendisse. Auctor elit sed vulputate mi.
+By the end of the semester, the graduate students will be able to:
+    1. Understand how phylogenetic trees are built.
+    2. Infer correlations between traits using a phylogenetic tree as part of the modeling approach.
+    3. Model discrete traits, and ancestral reconstruction on a phylogenetic tree.
+    4. Become familiar with the primary literature of comparative methods.
+    5. Develop basic computer skills to manipulate phylogenetic trees and traits.
+    6. Develop quantitative reasoning to follow methods in results of scientific articles.
 
 ## Assignments
 
-Vehicula ipsum a arcu cursus vitae congue. Etiam dignissim diam quis enim lobortis scelerisque fermentum dui. Risus sed vulputate odio ut enim blandit. Aliquam id diam maecenas ultricies mi eget. Id consectetur purus ut faucibus pulvinar elementum integer enim neque. Eget mi proin sed libero enim sed faucibus. Sem integer vitae justo eget magna fermentum iaculis. In mollis nunc sed id semper risus in. Sit amet risus nullam eget felis eget. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget. Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Porta non pulvinar neque laoreet suspendisse interdum consectetur libero id. At varius vel pharetra vel turpis nunc eget. Scelerisque purus semper eget duis at tellus.
+### Participation and Reading Quiz
+There are many readings in this course. I will quiz you on concepts and ideas from the articles after I have introduced the basics during the lecture. Some of the readings are challenging, but they won’t be long. Make sure you are taking your time to understand them. I am happy to discuss any of these readings one-on-one. Another way to compensate for missing points in the reading quizzes is by participating and asking questions during the class. Participation is optional, but highly encouraged.
+
+
+As a reminder, every student in the class is new to this topic regardless from their current degree or background. My goal is to introduce you to a completely new (and exciting!) field.
+
+### Midterm- 1 Modeling plan plus descriptive statistics (max 3 pages)
+
+Your midterm is very simple. For undergraduate students, I will provide you with some trees and traits to plot some phylogenetic summary statistics, and describe what kind of analysis you would want to do as your final project. For graduate students, I will ask you to find your own tree and traits, describe your plan for final project, and also create some summary statistics for your data. Altogether, this midterm should be no longer than 3 pages and should cite specific references that will be essential for your final project.
+
+### Final report (max 7 pages)
+
+Your final report will be a complete phylogenetic comparative analysis. You will start by introducing the problem, describing your tree and traits. Later, you will be describing a comparative method to solve the problem. Finally, you will discuss the importance of your results and what you have learned about comparative methods. I will be providing clear guidance and a rubric about the sections required for your final. I have allocated time during the semester to work together on this final project, hoping that you feel supported and guided through the whole process.
