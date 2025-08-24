@@ -10,7 +10,7 @@ Aug 28
 : **Lecture**{: .label .label-purple }Tree-thinking
   : [Slides](#)
 : **Reading**{: .label .label-blue }Tree-thinking
-    : [Omland](Omland_2017_InterpretationPhylo.pdf)
+    : [Omland](https://github.com/roszenil/BIO508-Evolution/tree/main/assets/docs)
 
 Sep 30
 : [Variables & Objects](#)
