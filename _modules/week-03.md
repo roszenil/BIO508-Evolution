@@ -1,10 +1,10 @@
 ---
-title: Week 2
+title: Week 3
 ---
 
-Sep 2
-: **Lecture**{: .label .label-purple }Buiding trees from traits
-  : [Slides](#)
+Sep 9
+: **Practical**{: .label .label-orange } Phylogenies in a computer
+  : [Practical 1](../practicals/tutorial_1)
   
 Sep 4
 : **Reading**{: .label .label-blue } Molecular phylogenetics
