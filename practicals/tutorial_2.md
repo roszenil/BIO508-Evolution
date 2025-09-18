@@ -6,9 +6,9 @@ math: katex
 
 ## Download the following files
 
-1. (Nexus file with data)[challenge_data.nex]
-2. (Newick phylogenetic tree)[challenge_tree.tree]
-3. (Functions to navigate tree)[challenge_fxns.R]
+1. [Nexus file with data](downloads/challenge_data.nex)
+2. [Newick phylogenetic tree](downloads/challenge_tree.tree)
+3. [Functions to navigate tree](downloads/challenge_fxns.R)
 
 Open your BIO508-practicals project and deposit the files you just downloaded there. Open a new R script file and name it something you remember (likelihood_for_trees.R for example) 
 
@@ -92,9 +92,9 @@ This plotting is also a good place to make better sense of the *edge* matrix att
 tree$edge
 ```
 
-We can see that the second row, denoted by $[2,]$, has $5$ and $1$ in the columns. We can look at our plot and find the branch labeled with a $2$ and see that it is connected to nodes labeled $5$ and $1$. 
+We can see that the second row, denoted by $$[2,]$$, has $$5$$ and $$1$$ in the columns. We can look at our plot and find the branch labeled with a $$2$$ and see that it is connected to nodes labeled $$5$$ and $$1$$. 
 
-We can also notice that the ordering the columns matters. Node numbers that appear in the first column of the edge matrix are considered the ancestral node of the branch while node numbers in the second column are considered the descendant node of the branch. We can easily see that $5$ is the ancestor, or parent, node for edge $2$ while node $1$ is the descendent, or child, of the branch. Pretty slick!
+We can also notice that the ordering the columns matters. Node numbers that appear in the first column of the edge matrix are considered the ancestral node of the branch while node numbers in the second column are considered the descendant node of the branch. We can easily see that $$5$$ is the ancestor, or parent, node for edge $$2$$ while node $$1$$ is the descendent, or child, of the branch. Pretty slick!
 
 ### The Sequence Data
 
@@ -109,8 +109,8 @@ Here we can see that we have a list where each attribute in the list corresponds
 Before we get into the inner workings of the pruning algorithm, we will need a few functions to make our lives easier. Examples of these functions will refer to the node and edge numbers that were plotted above, so either be ready to scroll up to that tree or it may be handy to jot the tree down on a piece of scratch paper. Lastly, for brevity's sake I won't bother showing the code for the functions here. The interested reader can find the code along with explainations of the code in the *challenge_fxns.R*.
 
 * `isTip(phy,nd)`: this function returns `TRUE` if the given node is a tip and `FALSE` otherwise.This function has two inputs:
-    + $phy$: the phylogenetic tree  
-    + $nd$: the number of the node that we are interested in
+    + $$phy$$: the phylogenetic tree  
+    + $$nd$$: the number of the node that we are interested in
 
 ```
 ###Example###
@@ -119,8 +119,8 @@ isTip(tree,4) ##Returns?
 ```
    
 * `getChildren(phy,nd)`: This function finds the child node numbers of a given node on a tree. This function has two inputs:
-    + $phy$: the phylogenetic tree  
-    + $nd$: the number of the node that we are interested in
+    + $$phy$$: the phylogenetic tree  
+    + $$nd$$: the number of the node that we are interested in
 ```
 ###Example###
 getChildren(tree,4) ##Returns ?
@@ -129,8 +129,8 @@ getChildren(tree,2) ##Returns ?
 
 
 * `getBranchLength(phy,nd)`: This function returns the length of the branch between a given node and its parent. This function has two inputs:
-    + $phy$: the phylogenetic tree  
-    + $nd$: the number of the node that we are interested in
+    + $$phy$$: the phylogenetic tree  
+    + $$nd$$: the number of the node that we are interested in
 ```
 ###Example###
 getBranchLength(tree,3) ##Returns ?
@@ -138,7 +138,7 @@ getBranchLength(tree,5) ##Returns ?
 getBranchLength(tree,4) ##The root has no branch that leads to it. Returns NULL
 ```  
 
-* `subst_probsJC(i,j,v)`: This function computes the probability that a site transitions from nucleotide $i$ to nucleotide $j$ along a branch with length $\nu$ when the rate of evolution is $\lambda=1/3$ The probabilities are calculated according to the Jukes Cantor model of sequence evolution:
+* `subst_probsJC(i,j,v)`: This function computes the probability that a site transitions from nucleotide $$i$$ to nucleotide $$j$$ along a branch with length $\nu$ when the rate of evolution is $$\lambda=1/3$$ The probabilities are calculated according to the Jukes Cantor model of sequence evolution:
 $$
 p_{ij}(v) = \left\{
         \begin{array}{ll}
@@ -149,10 +149,11 @@ p_{ij}(v) = \left\{
 $$
 
 This function has three inputs:
-    + $i$: A string containing the starting nucleotide. Either `"a"`, `"c"`, `"g"`, or `"t"`
-    + $j$: A string containing the ending nucleotide. Either `"a"`, `"c"`, `"g"`, or `"t"`
-    + $\nu$: a non-negative floating point number that represents the expected number of substitutions along a branch.
-```{r,eval=FALSE}
+    + $$i$$: A string containing the starting nucleotide. Either `"a"`, `"c"`, `"g"`, or `"t"`
+    + $SjS$: A string containing the ending nucleotide. Either `"a"`, `"c"`, `"g"`, or `"t"`
+    + $S\nuS$: a non-negative floating point number that represents the expected number of substitutions along a branch.
+    
+```
 ###Example###
 subst_probsJC("a","g",1) ##Returns what value?
 subst_probsJC("a","a",1) ##Returns  what value
@@ -166,8 +167,8 @@ A_A+A_C+A_G+A_T ##Returns 1. This is a check for correctness. The probability of
 ```  
 
 * `siteSeqs2Likelihood(alignment, site_no)`: This function takes the observed nucleotide data at the tips for a given site and converts it into a likelihood format that our other functions can use to compute likelihoods for internal nodes. This function has two inputs:
-    + $alignment$: a list of aligned sequences  
-    + $site\_no$: the position of the alignment that we want to put into a likelihood format 
+    + $$alignment$$: a list of aligned sequences  
+    + $$site\_no$$: the position of the alignment that we want to put into a likelihood format 
 
 ```
 
@@ -180,15 +181,15 @@ lik_seq
 
 ```
 
-* `nodeLikelihood(l1,l2,v1,v2,sub_model=subst_probsJC)`: This function computes the conditional probability of each nucleotide for the ancestral node given the likelihood of the nucleotides at the descendent nodes and given the branch lengths that lead to each ancestral node. The likelihood of the ancestor node, denoted $anc$, for a given base $i$ is computed as follows:
+* `nodeLikelihood(l1,l2,v1,v2,sub_model=subst_probsJC)`: This function computes the conditional probability of each nucleotide for the ancestral node given the likelihood of the nucleotides at the descendent nodes and given the branch lengths that lead to each ancestral node. The likelihood of the ancestor node, denoted $$anc$$, for a given base $$i$$ is computed as follows:
 $$
 \ell_{anc}(i) = \left(\sum_{j} p_{ij} (\nu_{d1})\ell_{d1}(j) \right)*\left(\sum_{j} p_{ij} (\nu_{d2})\ell_{d2}(j) \right)
 $$
- Where $d1$ and $d2$ represent the two descendent nodes of the ancestral node. 
+ Where $$d1$$ and $$d2$$ represent the two descendent nodes of the ancestral node. 
  The computation is repeated for each of the four nucleotides. The function has five inputs:
-    + $l_{1}$, $l_{2}$ These inputs contain the likelihood of each base for the two descendent nodes
-    + $\nu_{1}$, $\nu_{2}$: The expected number of substitutions along the two branches that lead to the descendent nodes
-    + $sub\_model$: The model for sequence evolution. The default value is the Jukes Cantor model of sequence evolution, `subst_probsJC`
+    + $$l_{1}$, $l_{2}$$ These inputs contain the likelihood of each base for the two descendent nodes
+    + $$\nu_{1}$, $\nu_{2}$$: The expected number of substitutions along the two branches that lead to the descendent nodes
+    + $$sub\_model$$: The model for sequence evolution. The default value is the Jukes Cantor model of sequence evolution, `subst_probsJC`
 
 ```
 ###Example###
@@ -223,9 +224,9 @@ We should now have all the infrastructure we need to compute the site likelihood
   2. Multiply the likelihood for each base by their respective stationary frequency
   3. Add all the elements together.
   
-For step 1. we can use the `nodeLikelihood()` function to compute the likelihood for each base at the root, the node numbered $4$. However, in order to do this we need the likelihood at each of the descendent nodes, the nodes numbered $3$ and $5$. 
+For step 1. we can use the `nodeLikelihood()` function to compute the likelihood for each base at the root, the node numbered $$4$$. However, in order to do this we need the likelihood at each of the descendent nodes, the nodes numbered $$3$$ and $$5$$. 
 
-The likelihood for node $3$ is straightforward, it is a tip and we have observed data for that node. As such, we can just convert the sequence data into a likelihood format for that node. 
+The likelihood for node $$3$$ is straightforward, it is a tip and we have observed data for that node. As such, we can just convert the sequence data into a likelihood format for that node. 
 
 ```
 node3_lik<-lik_seq$t3 ##get the likelihood for node 3
@@ -239,7 +240,7 @@ v3<-getBranchLength(tree,3) ##also get the branch length that connects nodes 4 a
 ```
 
 
-Node $5$ is a bit more tricky since this isn't a tip. In order to get the likelihood for the bases at node $5$ we need to use the `nodeLikelihood()` function again but this time on node $5$ where nodes $1$ and $2$ are the descendents. Luckily, we already did this computation in the example for `nodeLikelihood()`.
+Node $$5$$ is a bit more tricky since this isn't a tip. In order to get the likelihood for the bases at node $$5$$ we need to use the `nodeLikelihood()` function again but this time on node $$5$$ where nodes $$1$$ and $$2$$ are the descendents. Luckily, we already did this computation in the example for `nodeLikelihood()`.
 
 
 ```
@@ -259,7 +260,7 @@ root_lik #These numbers look like what we saw in class!
 
 ```
 
-So we've calculated the likelihood for each base, now for step 2. We need to multiply these by their stationary frequencies. The Jukes Cantor model assumes stationary frequencies of $A=C=G=T=0.25$. After we do this multiplication we only need to sum the values together to get the site likelihood
+So we've calculated the likelihood for each base, now for step 2. We need to multiply these by their stationary frequencies. The Jukes Cantor model assumes stationary frequencies of $$A=C=G=T=0.25$$. After we do this multiplication we only need to sum the values together to get the site likelihood
 
 ```
 stationary_freqs<-c(0.25,0.25,0.25,0.25) ##The stationary frequencies are all 0.25
