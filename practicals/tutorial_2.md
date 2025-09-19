@@ -1,7 +1,7 @@
 ---
 title: "Practical: Likelihood of a Tree"
 nav_exclude: true
-katex: true
+math: katex
 ---
 
 ## Download the following files
