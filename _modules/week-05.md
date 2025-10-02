@@ -7,5 +7,7 @@ Sep 23
     : [Slides](https://roszenil.github.io/BIO508-Evolution/slides/Lecture_4_post.pdf)
   
 Sep 25
-: **Practical**{: .label .label-orange } Likelihood of a tree and building a molecula phylogeny
+**Lecture**{: .label .label-purple } Molecular phylogenies
+    : [Slides](https://roszenil.github.io/BIO508-Evolution/slides/Lecture_5_post.pdf)
+: **Practical**{: .label .label-orange } Matching a phylogenetic tree with data
   : [Practical 3](https://roszenil.github.io/BIO508-Evolution/practicals/tutorial_3.html)
