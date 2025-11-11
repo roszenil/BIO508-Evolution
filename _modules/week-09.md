@@ -11,4 +11,4 @@ Oct 23
     : [Tribble 2025](https://roszenil.github.io/BIO508-Evolution/reads/Tribble_2025_evolving_macroevolution.pdf)
     
 **Slides**{: .label .label-blue } Hidden states and diversification
-    : [Slides](https://roszenil.github.io/BIO508-Evolution/slides/Lecture_10.pdf)
+    : [Slides](https://roszenil.github.io/BIO508-Evolution/slides/Lecture_10_post.pdf)
